@@ -1,0 +1,20 @@
+{
+  "name": "grunt-delete-test",
+  "description": "",
+  "version": "0.1.0",
+  "author": {
+    "name": "Luis Ramos"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "./setup.sh && nodeunit test.js"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "rimraf": "~2.2.0",
+    "nodeunit": "~0.8.1"
+  },
+  "keywords": []
+}
